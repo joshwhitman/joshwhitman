@@ -28,7 +28,9 @@
 		<meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/hexagons.css">
 		<link href='http://fonts.googleapis.com/css?family=Advent+Pro:400,700' rel='stylesheet' type='text/css'>
+		<link href="/joshwhitman/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<?php if (function_exists('customPageHeader')){
 			customPageHeader();
