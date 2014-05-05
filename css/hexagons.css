@@ -1,149 +1,32 @@
-/*Hexgrid compilation based on code provided by ScottS on StackOverflow.
-Guide found here: 
-http://stackoverflow.com/questions/10062887/generate-repeating-hexagonal-pattern-with-css3*/
+a:hover .hexagon,
+a:hover .hexagon:before,
+a:hover .hexagon:after {
+	background: #91B6C8;
+	-moz-transition: background 0.4s;
+  	-o-transition: background 0.4s;
+  	-webkit-transition: background 0.4s;
+  	transition: background 0.4s;
+}
+.hexgrid a {
+	text-decoration:none; /*got rid of those mysterious hyphens*/
+}
 
 .hexgrid {
+	width:270px;
+	overflow:hidden;
+	padding: 44px 200px 44px 12px;
 	margin-left:25%;
-	margin-top:200px;
-	position:absolute;
-}
-.hexrow {
-    white-space: nowrap;
-    /*right/left margin set at (( width of child div x sin(30) ) / 2) makes a fairly tight fit; a 3px bottom seems to match*/
-    margin: 0 25px 7px;
-}
+	margin-top:100px;
 
-.hexrow > div {
-    width: 50px;
-    height: 86.6px; /* ( width x cos(30) ) x 2 */
-    /* For margin:
-    right/left = ( width x sin(30) ) makes no overlap 
-    right/left = (( width x sin(30) ) / 2) leaves a narrow separation
-    */
-    margin: 0 14px; 
-    position: relative;
-    background-color: #51788A;
-    background-position: -20px 0; /* -left position -1 x width x sin(30) */
-   /* background-repeat: no-repeat;
-    background-size: auto 120%;*/
-    color: #ffffff;
-    text-align: center;
-    line-height: 86.6px; /*equals height*/
-    display: inline-block;
 }
-
-.hexrow > div:nth-child(odd) {
-    top: 21.7px; /* ( width x cos(30) / 2 ) */
-}
-
-.hexrow > div:nth-child(even) {
-    top: -24.7px; /* -1 x( ( width x cos(30) / 2) + (hexrow bottom margin / 2)) */ 
-}
-
-.hexrow > div > div:first-of-type {
-    position: absolute;
-    width: 100%;
-    height: 100%; 
-    top: 0;
-    left: 0;
-    z-index: -1;
-    overflow: hidden;
-    background-color: inherit;
-    
-    -ms-transform:rotate(60deg); /* IE 9 */
-    -moz-transform:rotate(60deg); /* Firefox */
-    -webkit-transform:rotate(60deg); /* Safari and Chrome */
-    -o-transform:rotate(60deg); /* Opera */
-    transform:rotate(60deg);
-}
-
-.hexrow > div > div:first-of-type:before {
-    content: '';
-    position: absolute;
-    width: 100px; /* width of main + margin sizing */
-    height: 100%;
-    background-color: inherit;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: auto 120%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    
-    -ms-transform:rotate(-60deg) translate(-150px, 0); /* IE 9 */
-    -moz-transform:rotate(-60deg) translate(-150px, 0); /* Firefox */
-    -webkit-transform:rotate(-60deg) translate(-150px, 0); /* Safari and Chrome */
-    -o-transform:rotate(-60deg) translate(-150px, 0); /* Opera */
-    transform:rotate(-60deg) translate(-150px, 0);
-    
-    -ms-transform-origin: 0 0; /* IE 9 */
-    -webkit-transform-origin: 0 0; /* Safari and Chrome */
-    -moz-transform-origin: 0 0; /* Firefox */
-    -o-transform-origin: 0 0; /* Opera */
-    transform-origin: 0 0;
-}
-
-.hexrow > div > div:last-of-type {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    overflow: hidden;
-    background-color: inherit;
-    
-    -ms-transform:rotate(-60deg); /* IE 9 */
-    -moz-transform:rotate(-60deg); /* Firefox */
-    -webkit-transform:rotate(-60deg); /* Safari and Chrome */
-    -o-transform:rotate(-60deg); /* Opera */
-    transform:rotate(-60deg);
-}
-
-.hexrow > div > div:last-of-type:before {
-    content: '';
-    position: absolute;
-    width: 100px; /* starting width + margin sizing */
-    height: 100%;
-    background-color: inherit;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: auto 120%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    
-    /*translate properties are initial width (100px) and half height (173.2 / 2 = 86.6) */
-    -ms-transform:rotate(60deg) translate(50px, 43.3px); /* IE 9 */
-    -moz-transform:rotate(60deg) translate(50px, 43.3px); /* Firefox */
-    -webkit-transform:rotate(60deg) translate(50px, 43.3px); /* Safari and Chrome */
-    -o-transform:rotate(60deg) translate(50px, 43.3px); /* Opera */
-    transform:rotate(60deg) translate(50px, 43.3px);
-    
-    -ms-transform-origin: 100% 0; /* IE 9 */
-    -webkit-transform-origin: 100% 0; /* Safari and Chrome */
-    -moz-transform-origin: 100% 0; /* Firefox */
-    -o-transform-origin: 100% 0; /* Opera */
-    transform-origin: 100% 0;
-}
-
-.hexrow > div > span {
-    display: inline-block;
-    margin: 0 -100px;
-    line-height: 1.1;
-    vertical-align: middle;
-    white-space: normal; 
-}
-
 .hex_header{
 	background-image: url('/joshwhitman/img/placeholder.png');
 	background-repeat: no-repeat;
 	background-size: 160px;
 
 	height:160px;
-	margin-bottom:-81px;
-	margin-left:50px;
+	margin-bottom:-18px;
+	margin-left:31px;
 }
 
 .hex_header h1{
@@ -165,7 +48,61 @@ http://stackoverflow.com/questions/10062887/generate-repeating-hexagonal-pattern
 	margin-top:80px;
 	white-space:nowrap;
 }
-.hidden_hex {
-	visibility:hidden;
-	
+
+.hexagon {
+	position:relative;
+	background: #51788A;
+	width: 50px; /*width of one side of the hex*/
+	height: 86.6px; /* ( width x cos(30) ) x 2 */
+	overflow:visible;
+	display:inline-block;
+	vertical-align:top;
+	margin: -43.3px 15px 4px 15px; /*43.3 is half the height, and sets the vertical starting position of each hex*/
+}
+
+.hexagon.spacer {
+	background:transparent;
+}
+.hexagon.spacer:before, .hexagon.spacer:after {
+  background: transparent;
+}
+.hex_middle{
+	margin-top: 4px;/*on each selected element, removes that negative margin, replaces with spacing between hexes*/
+}
+.hexagon .hex_content {
+	/*styles the content inside the hexes*/
+	position:absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	margin-top:50%;
+	z-index:2;
+	width:100%;
+	color:#ffffff;
+}
+.hexagon:before, .hexagon:after {
+	content:"";
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	background: #51788A;
+	top: 0;
+	left: 0;
+}
+
+.hexagon:before {
+	/*rotate the first pseudo-div 60 degrees*/
+	-moz-transform: rotate(60deg);
+  	-ms-transform: rotate(60deg);
+ 	-webkit-transform: rotate(60deg);
+  	transform: rotate(60deg);
+}
+
+.hexagon:after {
+	/*rotate the second pseudo-div 120 degrees*/
+	-moz-transform: rotate(120deg);
+  	-ms-transform: rotate(120deg);
+  	-webkit-transform: rotate(120deg);
+  	transform: rotate(120deg);
 }

@@ -3,85 +3,69 @@
 
 	function customPageHeader(){?>
 		<!--insert additional header content here-->
+
 <?php }
 	include('header.php');
 ?>
+
+
 <div class="hexgrid">
 	<div class="hex_header">
-		<div>
-			<span></span>
-			<div>
-			</div>
-			<div>
-			</div>
-		</div>
-			<h1>josh<strong>whitman</strong></h1>
-			<h4>QA Analyst, web developer, writer</h4>
-	</div>	
-	<div class="hexrow">
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-		<div>
-			<!--about-->
-			<span class="hex_icon"><i class="fa fa-user fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
-			</div>
-		</div>
+	<h1>josh<strong>whitman</strong></h1>
+	<h4>QA Analyst, web developer, writer</h4>
 	</div>
-	<div class="hexrow">
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-		<div>
-			<!--projects-->
-			<span class="hex_icon"><i class="fa fa-archive fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
+	<div class="hexagon spacer"><div class="hex_content"></div></div>
+	<!--projects-->
+	<a href="#" alt="projects">
+		<div class="hexagon hex_middle">
+			<div class="hex_content">
+				<i class="fa fa-archive fa-2x"></i>
 			</div>
 		</div>
-		<div>
-			<!--tumblr-->
-			<span class="hex_icon"><i class="fa fa-tumblr fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
-			</div>
-		</div>
-	</div>
-	<div class="hexrow">
-		<div>
-			<!--github-->
-			<span class="hex_icon"><i class="fa fa-github fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
+	</a>
+	<!--about-->
+	<a href="/joshwhitman/about.php" alt="about">
+		<div class="hexagon">
+			<div class="hex_content">
+				<i class="fa fa-user fa-2x"></i>
 			</div>
 		</div>
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-		<div>
-			<!--twitter-->
-			<span class="hex_icon"><i class="fa fa-twitter fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
-			</div>
-		</div>
-	</div>
-	<div class="hexrow">
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-		<div>
-			<!--linkedin-->
-			<span class="hex_icon"><i class="fa fa-linkedin fa-2x"></i></span>
-			<div>
-			</div>
-			<div>
+	</a>
+	<div class="hexagon spacer"><div class="hex_content"></div></div>
+	<div class="hexagon spacer hex_middle"><div class="hex_content"></div></div>
+	<!--tumblr-->
+	<a href="http://joshura.com" alt="Blog/tumblr">
+		<div class="hexagon">
+			<div class="hex_content">
+				<i class="fa fa-tumblr fa-2x"></i>
 			</div>
 		</div>
-		<div class="hidden_hex"><span></span><div></div><div></div></div>
-	</div>
+	</a>
+	<!--github-->
+	<a href="https://github.com/joshwhitman" alt="Github">
+		<div class="hexagon">
+			<div class="hex_content">
+				<i class="fa fa-github fa-2x"></i>
+			</div>
+		</div>
+	</a>
+	<!--linkedin-->
+	<a href="https://www.linkedin.com/in/joshura" alt="LinkedIn">
+		<div class="hexagon hex_middle">
+			<div class="hex_content">
+				<i class="fa fa-linkedin fa-2x"></i>
+			</div>
+		</div>
+	</a>
+	<!--twitter-->
+	<a href="https://twitter.com/joshura" alt="Twitter">
+		<div class="hexagon">
+			<div class="hex_content">
+				<i class="fa fa-twitter fa-2x"></i>
+			</div>
+		</div>
+	</a>
 </div>
-
 <?php
 	include('footer.php');		
 ?>
