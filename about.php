@@ -8,7 +8,7 @@ include('header.php');
 ?>
         <div class="sidebar">
 			<img class="sidebar" src="img/hex_logo.png" alt="logo" />
-			<h1 class="sidebar">josh<strong>whitman</strong></h1>
+			<h1 class="sidebar">Josh<span>&nbsp;</span><strong>Whitman</strong></h1>
 			<p class="sidebar"><strong>QA analyst</strong> and <strong>web developer</strong> with experience working in marketing, education, and technology/media. He also likes cartoons and likes to write!</p>
 		</div>
 		<main class="main">

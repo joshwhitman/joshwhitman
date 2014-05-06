@@ -194,6 +194,11 @@ h1.sidebar{
 	text-align:center;
 	font: normal 2.5em 'Advent Pro', sans-serif;
 	font-weight: normal;
+	text-transform:lowercase;
+}
+
+h1.sidebar span {
+	letter-spacing:-1em;
 }
 p.sidebar{
 	padding:0px 15px 0px 15px;

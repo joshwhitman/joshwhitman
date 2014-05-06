@@ -11,7 +11,7 @@
 
 <div class="hexgrid">
 	<div class="hex_header">
-	<h1>josh<strong>whitman</strong></h1>
+	<h1>Josh<span>&nbsp;</span><strong>Whitman</strong></h1>
 	<h4>QA Analyst, web developer, writer</h4>
 	</div>
 	<div class="hexagon spacer"><div class="hex_content"></div></div>

@@ -51,7 +51,11 @@ a:hover .hex_content span {/*fix this man*/
 	position:absolute;
 	margin-left:175px;
 	margin-top: 25px;
+	text-transform:lowercase;
 
+}
+.hex_header span {
+	letter-spacing:-1em;
 }
 .hex_header h4 {
 	font-family: 'Advent Pro', sans-serif;
