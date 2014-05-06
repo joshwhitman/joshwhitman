@@ -7,7 +7,7 @@ a:hover .hexagon:after {
   	-webkit-transition: background 0.4s;
   	transition: background 0.4s;
 }
-a:hover .hex_content {/*fix this man*/
+a:hover .hex_content {
 	color:#D1DFE6;
 	-moz-transition: color 0.4s;
   	-o-transition: color 0.4s;
