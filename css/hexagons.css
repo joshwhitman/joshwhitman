@@ -7,6 +7,15 @@ a:hover .hexagon:after {
   	-webkit-transition: background 0.4s;
   	transition: background 0.4s;
 }
+
+a:hover .hexagon.hex_header span {/*fix this man*/
+	color:#000;
+	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	-webkit-transition: color 0.4s;
+  	transition: color 0.4s;
+
+}
 .hexgrid a {
 	text-decoration:none; /*got rid of those mysterious hyphens*/
 }
@@ -23,7 +32,6 @@ a:hover .hexagon:after {
 	background-image: url('/joshwhitman/img/placeholder.png');
 	background-repeat: no-repeat;
 	background-size: 160px;
-
 	height:160px;
 	margin-bottom:-18px;
 	margin-left:31px;
@@ -53,11 +61,11 @@ a:hover .hexagon:after {
 	position:relative;
 	background: #51788A;
 	width: 50px; /*width of one side of the hex*/
-	height: 86.6px; /* ( width x cos(30) ) x 2 */
+	height: 87px; /* ( width x cos(30) ) x 2 */
 	overflow:visible;
 	display:inline-block;
 	vertical-align:top;
-	margin: -43.3px 15px 4px 15px; /*43.3 is half the height, and sets the vertical starting position of each hex*/
+	margin: -43.5px 15px 4px 15px; /*43.5 is half the height, and sets the vertical starting position of each hex*/
 }
 
 .hexagon.spacer {
@@ -76,9 +84,23 @@ a:hover .hexagon:after {
 	left:0;
 	text-align: center;
 	margin-top:50%;
+	margin-left:-18.5px;
 	z-index:2;
-	width:100%;
+	width:87px;
 	color:#ffffff;
+}
+.hexagon .hex_content span {
+	font-family: "Advent Pro",sans-serif;
+	color:#ccc;
+	z-index: 4;
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size: 1.3em;
+	width:100%;
+	margin-top:2px;
+
 }
 .hexagon:before, .hexagon:after {
 	content:"";

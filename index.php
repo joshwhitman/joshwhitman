@@ -20,6 +20,7 @@
 		<div class="hexagon hex_middle">
 			<div class="hex_content">
 				<i class="fa fa-archive fa-2x"></i>
+				<span>projects</span>
 			</div>
 		</div>
 	</a>
@@ -28,6 +29,7 @@
 		<div class="hexagon">
 			<div class="hex_content">
 				<i class="fa fa-user fa-2x"></i>
+				<span>about</span>
 			</div>
 		</div>
 	</a>
@@ -38,6 +40,7 @@
 		<div class="hexagon">
 			<div class="hex_content">
 				<i class="fa fa-tumblr fa-2x"></i>
+				<span>tumblr</span>
 			</div>
 		</div>
 	</a>
@@ -46,6 +49,7 @@
 		<div class="hexagon">
 			<div class="hex_content">
 				<i class="fa fa-github fa-2x"></i>
+				<span>github</span>
 			</div>
 		</div>
 	</a>
@@ -54,6 +58,7 @@
 		<div class="hexagon hex_middle">
 			<div class="hex_content">
 				<i class="fa fa-linkedin fa-2x"></i>
+				<span>linkedin</span>
 			</div>
 		</div>
 	</a>
@@ -62,6 +67,7 @@
 		<div class="hexagon">
 			<div class="hex_content">
 				<i class="fa fa-twitter fa-2x"></i>
+				<span>twitter</span>
 			</div>
 		</div>
 	</a>
