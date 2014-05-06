@@ -25,7 +25,7 @@
 		</div>
 	</a>
 	<!--about-->
-	<a href="/joshwhitman/about.php" alt="about">
+	<a href="about.php" alt="about">
 		<div class="hexagon">
 			<div class="hex_content">
 				<i class="fa fa-user fa-2x"></i>

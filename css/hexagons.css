@@ -36,7 +36,7 @@ a:hover .hex_content span {/*fix this man*/
 
 }
 .hex_header{
-	background-image: url('/joshwhitman/img/placeholder.png');
+	background-image: url('img/placeholder.png');
 	background-repeat: no-repeat;
 	background-size: 160px;
 	height:160px;
