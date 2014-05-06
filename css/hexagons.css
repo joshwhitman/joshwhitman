@@ -7,9 +7,16 @@ a:hover .hexagon:after {
   	-webkit-transition: background 0.4s;
   	transition: background 0.4s;
 }
+a:hover .hex_content {/*fix this man*/
+	color:#D1DFE6;
+	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	-webkit-transition: color 0.4s;
+  	transition: color 0.4s;
 
-a:hover .hexagon.hex_header span {/*fix this man*/
-	color:#000;
+}
+a:hover .hex_content span {/*fix this man*/
+	color:#354f5b;/* darker version of theme color*/
 	-moz-transition: color 0.4s;
   	-o-transition: color 0.4s;
   	-webkit-transition: color 0.4s;
@@ -91,7 +98,7 @@ a:hover .hexagon.hex_header span {/*fix this man*/
 }
 .hexagon .hex_content span {
 	font-family: "Advent Pro",sans-serif;
-	color:#ccc;
+	color:transparent;
 	z-index: 4;
 	position:absolute;
 	top:0;
