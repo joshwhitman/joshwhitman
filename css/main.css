@@ -336,9 +336,28 @@ footer li {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) { 
+@media only screen and (max-width: 35em) { 
     /* Style adjustments for viewports that meet the condition */
-	
+	main {
+		margin-right:0px;
+		box-shadow: 0px 15px 15px -10px #888888 inset;
+		background-color: #ffffff;
+		padding-right:25px;
+	}
+	div.sidebar {
+		float:none;
+		width: 20em;
+		margin:auto;
+	}
+	img.sidebar{
+		width:100px;
+		margin: 15px auto 0px auto;
+		display:block;
+	}
+
+	p.sidebar{
+		padding:0px 15px 0px 15px;
+	}
 }
 
 @media print,

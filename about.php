@@ -7,9 +7,9 @@ function customPageHeader(){?>
 include('header.php');
 ?>
         <div class="sidebar">
-			<img class="sidebar" src="img/hex_logo.png" alt="logo" />
+			<a href="index.php" alt="Home"><img class="sidebar" src="img/hex_logo.png" alt="logo" /></a>
 			<h1 class="sidebar">Josh<span>&nbsp;</span><strong>Whitman</strong></h1>
-			<p class="sidebar"><strong>QA analyst</strong> and <strong>web developer</strong> with experience working in marketing, education, and technology/media. He also likes cartoons and likes to write!</p>
+			<p class="sidebar"><strong>QA analyst</strong> and <strong>web developer</strong> with experience working in marketing, education, and technology/media. He&nbsp;also likes cartoons and likes to write!</p>
 		</div>
 		<main class="main">
 			<section id="about">
