@@ -103,11 +103,10 @@ a:hover .hex_content span {
 	z-index: 4;
 	position:absolute;
 	top:auto;
-	left:auto;
 	font-weight:bold;
 	font-size: 2em;
 	width:100%;
-	margin:0px 0px 0px 50px;
+	margin:0px 0px 0px 110px;
 	display:inline-block;
 	text-align:left;
 	line-height:1em;
