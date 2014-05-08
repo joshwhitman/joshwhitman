@@ -3,6 +3,7 @@
 
 	function customPageHeader(){?>
 		<!--insert additional header content here-->
+		<link rel="stylesheet" media="screen and (max-width:35em)" href="css/hex_mobile.css" />
 
 <?php }
 	include('header.php');

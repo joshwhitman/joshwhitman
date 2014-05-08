@@ -16,7 +16,7 @@ a:hover .hex_content {
 
 }
 a:hover .hex_content span {
-	color:#354f5b;/* darker version of theme color*/
+	color:#91B6C8;/* darker version of theme color*/
 	-moz-transition: color 0.4s;
   	-o-transition: color 0.4s;
   	-webkit-transition: color 0.4s;
@@ -27,20 +27,18 @@ a:hover .hex_content span {
 }
 
 .hexgrid {
-	width:270px;
+	width:90%;
 	overflow:hidden;
-	padding: 44px 200px 44px 12px;
-	margin-left:25%;
-	margin-top:100px;
+	padding: 0px;
+	margin:0px;
 
 }
 .hex_header{
 	background-image: url('../img/josh_hex.png');
 	background-repeat: no-repeat;
-	background-size: 160px;
-	height:160px;
-	margin-bottom:-18px;
-	margin-left:31px;
+	background-size: 100px;
+	height:87px;
+	margin: 15px;
 }
 
 .hex_header h1{
@@ -48,8 +46,7 @@ a:hover .hex_content span {
 	font-size: 3em;
 	font-weight: normal;
 	position:absolute;
-	margin-left:175px;
-	margin-top: 25px;
+	margin:-5px 0px 0px 110px;
 	text-transform:lowercase;
 
 }
@@ -62,8 +59,7 @@ a:hover .hex_content span {
 	font-weight: normal;
 	color: #51788A;
 	position:absolute;
-	margin-left:235px;
-	margin-top:80px;
+	margin:48px 0px 0px 160px;
 	white-space:nowrap;
 }
 
@@ -73,19 +69,20 @@ a:hover .hex_content span {
 	width: 50px; /*width of one side of the hex*/
 	height: 87px; /* ( width x cos(30) ) x 2 */
 	overflow:visible;
-	display:inline-block;
+	display:block;
 	vertical-align:top;
-	margin: -43.5px 15px 4px 15px; /*43.5 is half the height, and sets the vertical starting position of each hex*/
+	margin: 0px 0px 15px 40px; /*43.5 is half the height, and sets the vertical starting position of each hex*/
 }
 
+
 .hexagon.spacer {
-	background:transparent;
+	display:none;
 }
 .hexagon.spacer:before, .hexagon.spacer:after {
-  background: transparent;
+ 	background: transparent;
 }
 .hex_middle{
-	margin-top: 4px;/*on each selected element, removes that negative margin, replaces with spacing between hexes*/
+	margin-top: 0px;/*on each selected element, removes that negative margin, replaces with spacing between hexes*/
 }
 .hexagon .hex_content {
 	/*styles the content inside the hexes*/
@@ -98,19 +95,22 @@ a:hover .hex_content span {
 	z-index:2;
 	width:87px;
 	color:#ffffff;
+	
 }
 .hexagon .hex_content span {
 	font-family: "Advent Pro",sans-serif;
-	color:transparent;
+	color:#51788A;
 	z-index: 4;
 	position:absolute;
-	top:0;
-	left:0;
+	top:auto;
+	left:auto;
 	font-weight:bold;
-	font-size: 1.3em;
+	font-size: 2em;
 	width:100%;
-	margin-top:2px;
-
+	margin:0px 0px 0px 50px;
+	display:inline-block;
+	text-align:left;
+	line-height:1em;
 }
 .hexagon:before, .hexagon:after {
 	content:"";
