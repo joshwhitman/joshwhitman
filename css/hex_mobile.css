@@ -16,7 +16,7 @@ a:hover .hex_content {
 
 }
 a:hover .hex_content span {
-	color:#91B6C8;/* darker version of theme color*/
+	color:#91B6C8;
 	-moz-transition: color 0.4s;
   	-o-transition: color 0.4s;
   	-webkit-transition: color 0.4s;
@@ -27,10 +27,10 @@ a:hover .hex_content span {
 }
 
 .hexgrid {
-	width:100%;
+	width:20em;
 	overflow:hidden;
 	padding:0px;
-	margin:0px;
+	margin: 0px auto 0px auto;
 
 }
 .hex_header{
@@ -99,7 +99,7 @@ a:hover .hex_content span {
 }
 .hexagon .hex_content span {
 	font-family: "Advent Pro",sans-serif;
-	color:#51788A;
+	color:#354f5b;
 	z-index: 4;
 	position:absolute;
 	top:auto;
