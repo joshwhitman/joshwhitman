@@ -30,42 +30,32 @@ include('header.php');
 						</p>
 				<h3 id="mgb_responsibilities">Responsibilities</h3>
 				<h4>Tested:</h4>
-				<table>
-					<tbody>
-					<tr>
-						<td>Responsive websites</td>
-						<td>Microsites</td>
-					<tr>
-						<td>Emails and newsletters</td>
-						<td>Custom CMS platforms</td>
-						
-					</tr>
-					<tr>
-						<td>Mobile apps</td>
-						<td>Mobile sites</td>
-					</tr>
-					<tr>
-						<td>Digital magazines</td>
-						<td>Accessibility compliance</td>
-					</tr>
-					</tr>
-						<td>Banner ads:<hr />
+				<div class="table_list">
+					<ul>
+						<li>Responsive websites</li>
+						<li>Microsites</li>
+						<li>Emails and newsletters</li>
+						<li>Custom CMS platforms</li>
+						<li>Mobile apps</li>
+						<li>Mobile sites</li>
+						<li>Digital magazines</li>
+						<li>Accessibility compliance</li>
+						<li>Banner ads:
 							<ul>
 								<li>HTML5</li>
 								<li>Standard Flash</li>
 								<li>Rich Media Flash</li>
-						</ul>
-						</td>
-						<td>Proprietary CMS including:<hr />
+							</ul>
+						</li>
+						<li>Proprietary CMS including:
 							<ul>
 								<li>Wordpress</li>
 								<li>Tumblr</li>
 								<li>Drupal</li>
 							</ul>
-						</td>
-					</tr>
-				</tbody>
-				</table>
+						</li>
+					</ul>
+				</div>
 				<h4>Tasks</h4>
 				<ul>
 					<li>Handled multiple projects daily.</li>
