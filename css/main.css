@@ -179,9 +179,10 @@ main .table_list ul ul li{
 	padding:4px;
 	margin:0px;
 }
-@media screen and (max-width:900px){
+@media only screen and (max-width:900px){
 	main .table_list li {
 		width:86%;
+	}
 }
 
 /*tables
