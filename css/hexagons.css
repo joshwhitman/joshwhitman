@@ -109,8 +109,12 @@ a:hover .hex_content span {
 	font-weight:bold;
 	font-size: 1.3em;
 	width:100%;
-	margin-top:2px;
+	padding-top:2px;
 
+}
+.hexagon .hex_content .two_lines {
+	margin-top:-.2em;
+	line-height:1em;
 }
 .hexagon:before, .hexagon:after {
 	content:"";

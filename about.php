@@ -113,10 +113,22 @@ include('header.php');
 			<footer>
 				<ul>
 					<li>
-						<a href="http://joshura.com" alt="">Tumblr</a>
+						<a href="projects.php" alt="Projects"> <i class="fa fa-archive fa-1x"></i>&nbsp;Projects</a>
 					</li>
 					<li>
-						<a href="http://linkedin.com/in/joshura/" alt="">LinkedIn</a>
+						<a href="about.php" alt="About"><i class="fa fa-user fa-1x"></i>&nbsp;About</a>
+					</li>
+					<li>
+						<a href="http://joshura.com" alt="Tumblr"><i class="fa fa-tumblr fa-1x"></i>&nbsp;Tumblr</a>
+					</li>
+					<li>
+						<a href="http://github.com/joshwhitman/" alt="Github"><i class="fa fa-github fa-1x"></i>&nbsp;Github</a>
+					</li>
+					<li>
+						<a href="http://linkedin.com/in/joshura/" alt="LinkedIn"><i class="fa fa-linkedin fa-1x"></i>&nbsp;LinkedIn</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/joshura" alt="Twitter"><i class="fa fa-twitter fa-1x"></i>&nbsp;Twitter</a>
 					</li>
 				</ul>
 			</footer>

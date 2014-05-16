@@ -21,7 +21,7 @@
 		<div class="hexagon hex_middle">
 			<div class="hex_content">
 				<i class="fa fa-archive fa-2x"></i>
-				<span>projects</span>
+				<span class="two_lines">coming soon!</span>
 			</div>
 		</div>
 	</a>
