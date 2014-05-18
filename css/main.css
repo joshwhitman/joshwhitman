@@ -100,25 +100,63 @@ body{
 	background-image: url("../img/greyzz.png");
 }
 
+a:hover {
+	color:#91B6C8;
+	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	-webkit-transition: color 0.4s;
+  	transition: color 0.4s;
+}
+
 main {
 	margin-right:260px;
 	box-shadow: -15px -15px 15px -10px #888888 inset;
 	background-color: #ffffff;
-	padding-right:25px;
+	padding:60px 35px 0px 20px;
 }
 
 main img {
 	width: 150px;
 	border: solid 1px;
-	margin: 60px 0px 20px -10px;
+	margin-bottom: 20px;
+	margin-left:-10px;
+	
 }
 main section{
 	padding:0px 0px 50px 50px;
 }
 main article{
-	margin-left:20px;
+	padding-left:20px;
+	border-bottom: 1px solid #cccccc;
 }
+main nav{
+	display:inline;
+	float:right;
+	text-align:right;
+	height:150px;
+}
+main nav ul{
+	padding:0px;
+	margin:5px;
+	display:block;
+	list-style-type: none;
+	list-style-position:inside;
 
+}
+main nav li:before{
+	content:"\00BB";
+	font-size:1em;
+	padding-right:4px;
+}
+main nav li{
+	padding:5px;
+	margin:0px;
+	font: normal 1.3em 'Advent Pro', sans-serif;
+}
+main nav a{
+	text-decoration:none;
+	color:#354f5b;
+}
 
 main h1 {
 	font-family: 'Advent Pro', sans-serif;
@@ -130,16 +168,24 @@ main h2 {
 	font: bold 2em 'Advent Pro', sans-serif;
 	margin: 50px 0px 0px 0px;
 }
-main h4.date {
-	font: normal 1.2em sans-serif;
-	text-transform:uppercase;
-	color:#888888;
-	margin-top:0px;
-	margin-left:10px;
-}
 main h3{
 	font: bold 1.6em 'Advent Pro', sans-serif;
-	margin: 40px 0px 20px 0px;
+	margin: 40px 20px 20px 0px;
+	text-align:right;
+}
+main h4 {
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#888888;
+	font: 1.2em sans-serif;
+	margin:5px 0px 0px 10px;
+}
+main h4.date {
+	text-align:right;
+}
+main h1>span, h2>span, h3>span, h4>span{
+	font-weight:normal;
+	font-size:90%;
 }
 
 main p, li {
@@ -147,29 +193,42 @@ main p, li {
 	margin-left: 20px;
 	line-height:1.5em;
 }
-main h4 {
-	font-weight:normal;
-	text-transform:uppercase;
-	color:#888888;
-	font: 1.2em sans-serif;
-	margin:0px 0px 0px 10px;
+
+/*table_list class is associated with the skill lists*/
+main .table_list {
+	width:auto;
+	padding-left:30px;
+	
 }
 main .table_list ul {
 	list-style-type:none;
-	
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+	column-count:2;
+	column-gap:10px;
+	padding:0px;
 }
 
 main .table_list li {
 	display:inline-block;
-	margin:5px;
+	margin:5px 0px 5px 0px;
 	height:auto;
-	width:43%;
+	width:100%;
 	background-color:#D1DFE6;
 	color: #354f5b;
-	padding: 7px 7px 7px 10px;
+	padding: 7px 10px 7px 10px;
 	
 }
+
 main .table_list ul ul {
+    -moz-column-count: 1;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 10px;
+	column-count:1;
+	column-gap:10px;
 	margin:2px 0px;
 	border-top: solid 1px #91B6C8;
 }
@@ -178,11 +237,6 @@ main .table_list ul ul li{
 	width:auto;
 	padding:4px;
 	margin:0px;
-}
-@media only screen and (max-width:900px){
-	main .table_list li {
-		width:86%;
-	}
 }
 
 /*sidebar*/
@@ -232,20 +286,6 @@ footer a {
 	font: normal 1.2em 'Advent Pro', sans-serif;
 	color:#354f5b;
 	font-weight: bold;
-
-}
-
-@media only screen and (max-width:840px){
-	footer li {
-		display:block;
-		padding: 5px;
-	}
-	footer ul {
-		text-align:center;
-	}
-	footer a {
-		font-size: 2em;
-	}
 
 }
 
@@ -361,7 +401,33 @@ footer a {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (max-width:900px){
+	main .table_list ul {
+	    -moz-column-count: 1;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count: 1;
+	    -webkit-column-gap: 10px;
+		column-count:1;
+		column-gap:10px;
+	}
+	main section {
+		padding-left:10px;
+	}
+}
 
+@media only screen and (max-width:840px){
+	footer li {
+		display:block;
+		padding: 5px;
+	}
+	footer ul {
+		text-align:center;
+	}
+	footer a {
+		font-size: 2em;
+	}
+
+}
 @media only screen and (max-width: 45em) { 
     /* Style adjustments for viewports that meet the condition */
 	main {
@@ -369,6 +435,16 @@ footer a {
 		box-shadow: 0px 15px 15px -10px #888888 inset;
 		background-color: #ffffff;
 		padding-right:25px;
+		padding-left:0px;
+	}
+	main section{
+		padding-left:20px;
+	}
+	main section article{
+		margin-left:10px;
+	}
+	main section ul{
+		padding-left:20px;
 	}
 	div.sidebar {
 		float:none;
@@ -385,6 +461,7 @@ footer a {
 		padding:0px 15px 0px 15px;
 	}
 }
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
