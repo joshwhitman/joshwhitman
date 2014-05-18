@@ -15,16 +15,16 @@ include('header.php');
 		<main class="main">
 			<nav>
 				<ul>
-					<a href="#about"><li>about</li></a>
-					<a href="#skills"><li>skills</li></a>
-					<a href="#experience"><li>experience</li></a>
-					<a href="#education"><li>education</li></a>
+					<a href="#about"><li>About</li></a>
+					<a href="#skills"><li>Skills</li></a>
+					<a href="#experience"><li>Experience</li></a>
+					<a href="#education"><li>Education</li></a>
 				</ul>
 			</nav>
 			<section id="about">
 				<img class="main" src="img/profile_image.png" alt="profile image" />
 
-				<h1>about</h1>
+				<h1>About</h1>
 				<article>
 					<p>Hey there!</p>
 					<p>I&rsquo;m Josh, and I&rsquo;m a <strong>QA analyst</strong> and <strong>digital developer</strong> with experience working in marketing, education, and technology/media. Thanks for taking the time to check out my site!</p>
@@ -35,7 +35,7 @@ include('header.php');
 				<!--<hr />-->
 			</section>
 			<section id="skills">
-				<h1>skills</h1>
+				<h1>Skills</h1>
 				<article id="general">
 					<h2>General</h2>
 					<div class="table_list">
@@ -104,11 +104,11 @@ include('header.php');
 				<!--<hr />-->
 			</section>
 			<section id="experience">
-				<h1>experience</h1>
+				<h1>Experience</h1>
 				<article id="mgb">
 					<h2>QA Analyst at mcgarrybowen</h2>
 					<h4 class="date">May 2012 &mdash; Present; New&nbsp;York,&nbsp;NY</h4>
-					<p>mcgarrybowen is a marketing agency whose digital development team handles work from a wide variety of clients including Verizon, JPMorgan Chase, United Airlines, Kraft, Disney Parks, Chevron, Northrop Grumman, and others.</p>
+					<p>Mcgarrybowen is a marketing agency whose digital development team handles work from a wide variety of clients including Verizon, JPMorgan Chase, United Airlines, Kraft, Disney Parks, Chevron, Northrop Grumman, and others.</p>
 					<h4>Accomplishments:</h4>
 					<ul>
 						<li>Acted as primary tester for a wide range of sites and apps, including the new Central Park Conservancy mobile app (for iOS and Android), mcgarrybowen&rsquo;s internal websites, several iterations of Verizon&rsquo;s DroidDoes.com and Powerful Answers sites, Purina Beyond Pet Food website, Lunchables Uploaded site, and Marriott&rsquo;s Residence Inn website.</li>
@@ -166,7 +166,7 @@ include('header.php');
 				<!--<hr />-->
 			</section>
 			<section id="education">
-				<h1>education</h1>
+				<h1>Education</h1>
 				<br />
 				<article id="general_courses">
 					<h4>General courses</h4>

@@ -134,6 +134,7 @@ main nav{
 	float:right;
 	text-align:right;
 	height:150px;
+	text-transform:lowercase;
 }
 main nav ul{
 	padding:0px;
@@ -163,6 +164,7 @@ main h1 {
 	font-size: 3em;
 	margin:0px;
 	line-height:1em;
+	text-transform:lowercase;
 }
 main h2 {
 	font: bold 2em 'Advent Pro', sans-serif;
@@ -181,7 +183,7 @@ main h4 {
 	margin:5px 0px 0px 10px;
 }
 main h4.date {
-	text-align:right;
+
 }
 main h1>span, h2>span, h3>span, h4>span{
 	font-weight:normal;
@@ -192,6 +194,7 @@ main p, li {
 	font: 1em Helvetica, sans-serif;
 	margin-left: 20px;
 	line-height:1.5em;
+	padding-bottom:15px;
 }
 
 /*table_list class is associated with the skill lists*/
@@ -205,7 +208,7 @@ main .table_list ul {
     -moz-column-count: 2;
     -moz-column-gap: 10px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
+    -webkit-column-gap: 10px;
 	column-count:2;
 	column-gap:10px;
 	padding:0px;
@@ -219,7 +222,9 @@ main .table_list li {
 	background-color:#D1DFE6;
 	color: #354f5b;
 	padding: 7px 10px 7px 10px;
-	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 main .table_list ul ul {
@@ -274,7 +279,6 @@ footer {
 
 footer ul{
 	list-style-type: none;
-	display:inline;
 }
 footer li {
 	display:inline-block;
