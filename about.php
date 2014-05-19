@@ -2,7 +2,6 @@
 $PageTitle="about - joshwhitman.net";
 
 function customPageHeader(){?>
-<!--insert additional header content here-->
 <?php }
 include('header.php');
 ?>
@@ -27,12 +26,13 @@ include('header.php');
 				<h1>About</h1>
 				<article>
 					<p>Hey there!</p>
-					<p>I&rsquo;m Josh, and I&rsquo;m a <strong>QA analyst</strong> and <strong>digital developer</strong> with experience working in marketing, education, and technology/media. Thanks for taking the time to check out my site!</p>
-					<p>I have worn many hats through the years, and I consider each as valuable as the last. As a <strong>student</strong>, I pursued liberal arts to the nth degree to gain as much knowledge as interested me. As a <strong>teacher</strong>, I spent a lot of my time improving processes and increasing the capabilities of my co-workers and students. As a <strong>designer</strong>, <strong>writer</strong>, and <strong>developer</strong>, I put ideas into action, seeking new skills whenever they become necessary. As a <strong>QA analyst</strong>, I follow projects to their audiences and help perfect the experience therein.</p>
+					<p>I&rsquo;m a <strong>QA analyst</strong> and <strong>digital developer</strong> with experience working in marketing, education, and technology/media. Thanks for taking the time to check out my site!</p>
+					<p>I have performed many roles, and I consider each as valuable as the last. As a <strong>student</strong>, I pursued liberal arts to the nth degree to gain as much knowledge of my interests as time allowed. As a <strong>teacher</strong>, I spent a lot of my time improving processes and increasing the capabilities of my co-workers and students. As a <strong>designer</strong>, <strong>writer</strong>, and <strong>developer</strong>, I put ideas into action, seeking new skills whenever they become necessary. As a <strong>QA analyst</strong>, I follow projects to their audiences and help hone and complete the experience they have.</p>
 					<p>In my spare time, I pursue creative projects and gain the skills necessary to complete them. These include writing fiction and nonfiction, creating websites with and for friends, drawing, and various craft projects (next, I&rsquo;m building a computer inside of a Gamecube). I enjoy creating new ways to introduce fun things into my life.</p>
+					<p>This site is a small work in progress, but check back soon for a gallery of my various projects!</p>
+					
 					<h3><span>&mdash;Josh</span></h3>
 				</article>
-				<!--<hr />-->
 			</section>
 			<section id="skills">
 				<h1>Skills</h1>
@@ -60,13 +60,7 @@ include('header.php');
 									<li>Mobile apps</li>
 									<li>Digital magazines</li>
 									<li>Accessibility compliance</li>
-									<li>Rich Media and Standard <strong>Banner&nbsp;ads</strong> in HTML5&nbsp;and&nbsp;Flash
-									<!--	<ul>
-											<li>HTML5</li>
-											<li>Standard Flash</li>
-											<li>Rich Media Flash</li>
-										</ul>-->
-									</li>
+									<li>Rich Media and Standard <strong>Banner&nbsp;ads</strong> in HTML5&nbsp;and&nbsp;Flash</li>
 								</ul>
 							</li>
 							<li><strong>White-box testing</strong> for mobile apps and CMS implementations</li>
@@ -101,7 +95,6 @@ include('header.php');
 						</ul>
 					</div>
 				</article>
-				<!--<hr />-->
 			</section>
 			<section id="experience">
 				<h1>Experience</h1>
@@ -121,7 +114,6 @@ include('header.php');
 						<li>Introduced automation options using Selenium and Python for web applications.</li>
 					</ul>
 				</article>
-				<!--<hr />-->	
 				<article id="bosskey">
 					<h2>Creative Director and Managing&nbsp;Editor <span>at Bosskey.org</span></h2>
 					<h4 class="date">April 2011 &mdash; March 2014</h4>
@@ -137,7 +129,6 @@ include('header.php');
 						<li>Engaged social media to reach hundreds of people with new posts.</li>
 					</ul>
 				</article>
-				<!--<hr />-->
 				<article id="heart">
 					<h2>Assistant Language Teacher <span>with Heart&nbsp;School</span></h2>
 					<h4 class="date">September 2010 &mdash; April 2012; Ibaraki,&nbsp;Japan</h4>
@@ -151,19 +142,17 @@ include('header.php');
 						<li>Organized and hosted after school conversation groups for students looking for additional practice.</li>
 					</ul>
 				</article>
-				<!--<hr />-->
 				<article id="tia">
 					<h2>Language Teacher <span>at Tsukuba International Academy</span></h2>
 					<h4 class="date">January 2011 &mdash; March 2012; Tsuchiura,&nbsp;Japan</h4>
 					<p>Tsukuba International Academy is an English conversation school that provides extracurricular language tutoring and instruction to private parties and businesses, with no age restrictions.</p>
 					<h4>Accomplishments</h4>
 					<ul>
-						<li>Taught beginner English to kindergarten students, advanced English to business-sponsored students, intermediate English to high school students, and very advanced English to one awesome 9-year old.</li>
+						<li>Taught beginner English to kindergarten students, intermediate English to high school students, advanced English to business-sponsored students, and very advanced English to one awesome 9-year old.</li>
 						<li>Created games and lesson presentation material for use by all teachers.</li>
 						<li>Taught new teachers job responsibilities and procedures.</li>
 					</ul>
 				</article>
-				<!--<hr />-->
 			</section>
 			<section id="education">
 				<h1>Education</h1>
@@ -189,8 +178,11 @@ include('header.php');
 			<footer>
 				<ul>
 					<li>
-						<a href="projects.php" alt="Projects"> <i class="fa fa-archive fa-1x"></i>&nbsp;Projects</a>
+						<a href="index.php" alt="Home"> <i class="fa fa-home fa-1x"></i>&nbsp;Home</a>
 					</li>
+					<!--<li>
+						<a href="projects.php" alt="Projects"> <i class="fa fa-archive fa-1x"></i>&nbsp;Projects</a>
+					</li>-->
 					<li>
 						<a href="about.php" alt="About"><i class="fa fa-user fa-1x"></i>&nbsp;About</a>
 					</li>

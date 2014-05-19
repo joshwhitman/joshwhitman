@@ -11,10 +11,10 @@
 
 
 <div class="hexgrid">
-	<div class="hex_header">
+	<a href="about.php" alt="About Josh"><div class="hex_header">
 	<h1>Josh<span>&nbsp;</span><strong>Whitman</strong></h1>
 	<h4>QA Analyst, web developer, writer</h4>
-	</div>
+	</div></a>
 	<div class="hexagon spacer"><div class="hex_content"></div></div>
 	<!--projects-->
 	<a href="#" alt="projects">

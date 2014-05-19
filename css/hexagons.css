@@ -41,6 +41,11 @@ a:hover .hex_content span {
 	height:160px;
 	margin-bottom:-18px;
 	margin-left:31px;
+	color:black;
+}
+.hex_header a{
+	text-decoration:none;
+	color:black;
 }
 
 .hex_header h1{
