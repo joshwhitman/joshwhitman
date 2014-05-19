@@ -193,12 +193,12 @@ main h1>span, h2>span, h3>span, h4>span{
 }
 
 main p, li {
-	margin-left: 0px;
 	line-height:1.5em;
 	padding-bottom:15px;
 }
 main p {
 	font: 1em Helvetica, sans-serif;
+	margin-left:20px;
 }
 main li {
 	font: .9em Helvetica, sans-serif;
