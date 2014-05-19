@@ -141,7 +141,7 @@ include('header.php');
 				<article id="heart">
 					<h2>Assistant Language Teacher <span>with Heart&nbsp;School</span></h2>
 					<h4 class="date">September 2010 &mdash; April 2012; Ibaraki,&nbsp;Japan</h4>
-					<p>Heart School is an English teaching company basd in Mito,&nbsp;Ibaraki, in Japan, that hires native English speakers for dispatch positions teaching in various school systems in its regions.</p>
+					<p>Heart School is an English teaching company based in Mito,&nbsp;Ibaraki, in Japan, that hires native English speakers for dispatch positions teaching in various school systems in its regions.</p>
 					<h4>Accomplishments</h4>
 					<ul>
 						<li>Taught English to middle school students ages 12-15 at Fuchu Jr. High School in Ishioka.</li>
