@@ -100,14 +100,6 @@ body{
 	background-image: url("../img/greyzz.png");
 }
 
-a:hover {
-	color:#91B6C8;
-	-moz-transition: color 0.4s;
-  	-o-transition: color 0.4s;
-  	-webkit-transition: color 0.4s;
-  	transition: color 0.4s;
-}
-
 main {
 	margin-right:260px;
 	box-shadow: -15px -15px 15px -10px #888888 inset;
@@ -135,6 +127,7 @@ main nav{
 	text-align:right;
 	height:150px;
 	text-transform:lowercase;
+
 }
 main nav ul{
 	padding:0px;
@@ -145,7 +138,7 @@ main nav ul{
 
 }
 main nav li:before{
-	content:"\00BB";
+	content:"";
 	font-size:1em;
 	padding-right:4px;
 }
@@ -153,10 +146,19 @@ main nav li{
 	padding:5px;
 	margin:0px;
 	font: normal 1.3em 'Advent Pro', sans-serif;
+	background-color:white;
 }
 main nav a{
 	text-decoration:none;
 	color:#354f5b;
+}
+
+a:hover li {
+	color:#91B6C8;
+	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	-webkit-transition: color 0.4s;
+  	transition: color 0.4s;
 }
 
 main h1 {
@@ -172,7 +174,7 @@ main h2 {
 }
 main h3{
 	font: bold 1.6em 'Advent Pro', sans-serif;
-	margin: 40px 20px 20px 0px;
+	margin: 20px 80px 40px 0px;
 	text-align:right;
 }
 main h4 {
@@ -196,7 +198,29 @@ main p, li {
 	line-height:1.5em;
 	padding-bottom:15px;
 }
-
+main article ul {
+	list-style-position:inside;
+	list-style-type:none;
+}
+main article li:before{
+	font-family:"FontAwesome";
+	content:"\f105";
+	padding-right:5px;
+}
+main article div li:before{
+	content:"";
+	padding-right:0px;
+}
+main li {
+	background-color:#fff;
+	padding:15px;
+	margin-bottom:5px;
+	margin-top:5px;
+	color: #354f5b;
+}
+main article li:nth-child(odd){
+	background-color:#D1DFE6;
+}
 /*table_list class is associated with the skill lists*/
 main .table_list {
 	width:auto;
@@ -205,6 +229,7 @@ main .table_list {
 }
 main .table_list ul {
 	list-style-type:none;
+	list-style-position:outside;
     -moz-column-count: 2;
     -moz-column-gap: 10px;
     -webkit-column-count: 2;
@@ -221,7 +246,8 @@ main .table_list li {
 	width:100%;
 	background-color:#D1DFE6;
 	color: #354f5b;
-	padding: 7px 10px 7px 10px;
+	padding: 10px;
+	line-height:1.2em;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -234,14 +260,15 @@ main .table_list ul ul {
     -webkit-column-gap: 10px;
 	column-count:1;
 	column-gap:10px;
-	margin:2px 0px;
+	margin:4px 0px 4px 0px;
+	padding-top: 10px;
 	border-top: solid 1px #91B6C8;
 }
 main .table_list ul ul li{
 	display:block;
 	width:auto;
-	padding:4px;
-	margin:0px;
+	padding:6px;
+	margin:0px 0px 0px 10px;
 }
 
 /*sidebar*/
@@ -291,6 +318,13 @@ footer a {
 	color:#354f5b;
 	font-weight: bold;
 
+}
+a:hover {
+	color:#91B6C8;
+	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	-webkit-transition: color 0.4s;
+  	transition: color 0.4s;
 }
 
 
@@ -445,10 +479,13 @@ footer a {
 		padding-left:20px;
 	}
 	main section article{
-		margin-left:10px;
+		margin-left:0px;
 	}
 	main section ul{
-		padding-left:20px;
+		padding-left:10px;
+	}
+	main section li{
+		margin-left:10px;
 	}
 	div.sidebar {
 		float:none;

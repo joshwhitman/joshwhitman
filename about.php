@@ -30,7 +30,7 @@ include('header.php');
 					<p>I&rsquo;m Josh, and I&rsquo;m a <strong>QA analyst</strong> and <strong>digital developer</strong> with experience working in marketing, education, and technology/media. Thanks for taking the time to check out my site!</p>
 					<p>I have worn many hats through the years, and I consider each as valuable as the last. As a <strong>student</strong>, I pursued liberal arts to the nth degree to gain as much knowledge as interested me. As a <strong>teacher</strong>, I spent a lot of my time improving processes and increasing the capabilities of my co-workers and students. As a <strong>designer</strong>, <strong>writer</strong>, and <strong>developer</strong>, I put ideas into action, seeking new skills whenever they become necessary. As a <strong>QA analyst</strong>, I follow projects to their audiences and help perfect the experience therein.</p>
 					<p>In my spare time, I pursue creative projects and gain the skills necessary to complete them. These include writing fiction and nonfiction, creating websites with and for friends, drawing, and various craft projects (next, I&rsquo;m building a computer inside of a Gamecube). I enjoy creating new ways to introduce fun things into my life.</p>
-					<h3>&mdash; <span>Josh</span></h3>
+					<h3><span>&mdash;Josh</span></h3>
 				</article>
 				<!--<hr />-->
 			</section>
@@ -60,7 +60,7 @@ include('header.php');
 									<li>Mobile apps</li>
 									<li>Digital magazines</li>
 									<li>Accessibility compliance</li>
-									<li>Rich Media and Standard <strong>Banner ads</strong> in HTML5 and Flash
+									<li>Rich Media and Standard <strong>Banner&nbsp;ads</strong> in HTML5&nbsp;and&nbsp;Flash
 									<!--	<ul>
 											<li>HTML5</li>
 											<li>Standard Flash</li>
@@ -106,10 +106,10 @@ include('header.php');
 			<section id="experience">
 				<h1>Experience</h1>
 				<article id="mgb">
-					<h2>QA Analyst at mcgarrybowen</h2>
+					<h2>QA Analyst <span>at mcgarrybowen</span></h2>
 					<h4 class="date">May 2012 &mdash; Present; New&nbsp;York,&nbsp;NY</h4>
 					<p>Mcgarrybowen is a marketing agency whose digital development team handles work from a wide variety of clients including Verizon, JPMorgan Chase, United Airlines, Kraft, Disney Parks, Chevron, Northrop Grumman, and others.</p>
-					<h4>Accomplishments:</h4>
+					<h4>Accomplishments</h4>
 					<ul>
 						<li>Acted as primary tester for a wide range of sites and apps, including the new Central Park Conservancy mobile app (for iOS and Android), mcgarrybowen&rsquo;s internal websites, several iterations of Verizon&rsquo;s DroidDoes.com and Powerful Answers sites, Purina Beyond Pet Food website, Lunchables Uploaded site, and Marriott&rsquo;s Residence Inn website.</li>
 						<li>Improved validation process in Jira-based issue tracking workflow.</li>
@@ -123,10 +123,10 @@ include('header.php');
 				</article>
 				<!--<hr />-->	
 				<article id="bosskey">
-					<h2>Creative Director and Managing&nbsp;Editor at Bosskey.org</h2>
+					<h2>Creative Director and Managing&nbsp;Editor <span>at Bosskey.org</span></h2>
 					<h4 class="date">April 2011 &mdash; March 2014</h4>
 					<p>Bosskey is a gaming, comics, and general nerd-themed blog and forum community built on the CodeIgniter framework by a two-person team.</p>
-					<h4>Accomplishments:</h4>
+					<h4>Accomplishments</h4>
 					<ul>
 						<li>Created, designed, planned, and promoted website, working closely with a developer by providing detailed comps, wireframes, direction, and collaborating on data models, roadmaps, and feature planning.</li>
 						<li>Handled all QA by combining white-box, black-box, and user acceptance testing. Tracked defects and  acceptance criteria using Mantis Bug Tracker.</li>
@@ -139,10 +139,10 @@ include('header.php');
 				</article>
 				<!--<hr />-->
 				<article id="heart">
-					<h2>Assistant Language Teacher with Heart&nbsp;School</h2>
+					<h2>Assistant Language Teacher <span>with Heart&nbsp;School</span></h2>
 					<h4 class="date">September 2010 &mdash; April 2012; Ibaraki,&nbsp;Japan</h4>
 					<p>Heart School is an English teaching company basd in Mito,&nbsp;Ibaraki, in Japan, that hires native English speakers for dispatch positions teaching in various school systems in its regions.</p>
-					<h4>Accomplishments:</h4>
+					<h4>Accomplishments</h4>
 					<ul>
 						<li>Taught English to middle school students ages 12-15 at Fuchu Jr. High School in Ishioka.</li>
 						<li>Worked with teachers to create and conduct lessons for beginner to intermediate students.</li>
@@ -153,10 +153,10 @@ include('header.php');
 				</article>
 				<!--<hr />-->
 				<article id="tia">
-					<h2>Language Teacher at Tsukuba International Academy</h2>
+					<h2>Language Teacher <span>at Tsukuba International Academy</span></h2>
 					<h4 class="date">January 2011 &mdash; March 2012; Tsuchiura,&nbsp;Japan</h4>
 					<p>Tsukuba International Academy is an English conversation school that provides extracurricular language tutoring and instruction to private parties and businesses, with no age restrictions.</p>
-					<h4>Accomplishments:</h4>
+					<h4>Accomplishments</h4>
 					<ul>
 						<li>Taught beginner English to kindergarten students, advanced English to business-sponsored students, intermediate English to high school students, and very advanced English to one awesome 9-year old.</li>
 						<li>Created games and lesson presentation material for use by all teachers.</li>
