@@ -132,10 +132,10 @@ main nav{
 main nav ul{
 	padding:0px;
 	margin:5px;
-	display:block;
+	display:inline-block;
 	list-style-type: none;
 	list-style-position:inside;
-
+	
 }
 main nav li:before{
 	content:"";
@@ -146,7 +146,6 @@ main nav li{
 	padding:5px;
 	margin:0px;
 	font: normal 1.3em 'Advent Pro', sans-serif;
-	background-color:white;
 }
 main nav a{
 	text-decoration:none;
@@ -216,7 +215,7 @@ main article div li:before{
 	content:"";
 	padding-right:0px;
 }
-main li {
+main article li {
 	display:inline-block;
 	position:relative;
 
