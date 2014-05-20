@@ -46,6 +46,7 @@ include('header.php');
 							<li>Community management</li>
 							<li>Time management and estimates</li>
 							<li>Teaching</li>
+							<li>Japanese language (intermediate)</li>
 						</ul>
 					</div>
 				</article>
