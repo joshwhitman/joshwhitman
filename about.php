@@ -65,7 +65,8 @@ include('header.php');
 								</ul>
 							</li>
 							<li><strong>White-box testing</strong> for mobile apps and CMS implementations</li>
-							<li>Bug tracking software including <strong>Jira</strong>, <strong>Mantis</strong>, and <strong>Bugzilla</strong></li>
+							<li>User acceptance testing</li>
+							<li>Bug tracking using softwares including <strong>Jira</strong>, <strong>Mantis</strong>, and <strong>Bugzilla</strong></li>
 							<li>Tools including <strong>Charles</strong>, <strong>Wireshark</strong>, <strong>Firebug</strong>, and dev tools for all modern browsers</li>
 							<li>Accessibility testing for <strong>W3C</strong> guideline compliance</li>
 							<li>Test case building from comps or wireframes</li>
@@ -107,7 +108,7 @@ include('header.php');
 					<ul>
 						<li>Acted as primary tester for a wide range of sites and apps, including the new Central Park Conservancy mobile app (for iOS and Android), mcgarrybowen&rsquo;s internal websites, several iterations of Verizon&rsquo;s DroidDoes.com and Powerful Answers sites, Purina Beyond Pet Food website, Lunchables Uploaded site, and Marriott&rsquo;s Residence Inn website.</li>
 						<li>Improved validation process in Jira-based issue tracking workflow.</li>
-						<li>Taught three new members of the QA team and created documentation on our team&rsquo;s procedures for banner testing, email testing, issue tracking, and other general best practices.</li>
+						<li>Trained three new members of the QA team and created documentation on our procedures for banner testing, email testing, issue tracking, and other general best practices.</li>
 						<li>Oversaw implementation of and transition to AtTask for project management and issue tracking.</li>
 						<li>Taught developers and producers and created documentation on compliance with the W3C standards for accessible websites.</li>
 						<li>Conducted presentations and created documentation for account, creative, and production teams on utilizing QA and issue tracking systems effectively.</li>
